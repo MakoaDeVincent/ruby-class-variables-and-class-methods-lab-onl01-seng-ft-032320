@@ -39,6 +39,6 @@ class Song
     genre[type] ||= []
     genre[type] << @@genres
   end
-    
+
 
 end
