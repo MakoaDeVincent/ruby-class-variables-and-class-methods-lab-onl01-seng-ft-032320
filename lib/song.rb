@@ -27,7 +27,9 @@ class Song
     @@count
   end
 
-
+  def artists
+    @@artists.flatten
+  end
 
 
 end
