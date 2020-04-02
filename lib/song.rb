@@ -28,7 +28,7 @@ class Song
   end
 
   def self.artists
-    @@artists.flatten
+    @@artists
   end
 
 
