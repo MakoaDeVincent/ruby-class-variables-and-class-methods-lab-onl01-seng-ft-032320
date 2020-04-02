@@ -35,6 +35,10 @@ class Song
     @@genres.uniq
   end
 
-  
+  def genre_count
+    genre[type] ||= []
+    genre[type] << @@genres
+  end
+    
 
 end
