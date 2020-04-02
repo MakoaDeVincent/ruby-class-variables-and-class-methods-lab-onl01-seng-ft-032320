@@ -4,7 +4,7 @@ class Song
 
   @@count = 0
   @@artists = []
-  
+
   def initialize(song_name, artist, genre)
     @song_name = song_name
     @artist = artist
