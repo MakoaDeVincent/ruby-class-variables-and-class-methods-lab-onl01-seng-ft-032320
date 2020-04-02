@@ -20,7 +20,7 @@ class Song
     @song_name
   end
 
-  def count
+  def self.count
     @@count
   end
 
